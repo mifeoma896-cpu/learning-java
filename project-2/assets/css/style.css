@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+:root {
+--color-primary:black;
+--color-secondary:#616161;
+--color-accent:#009688;
+--color-bg: #f1f1f1;
+--color-white:#fff;
+--color-bg-hover:#e1dada;
+}
+* {
+    padding: 0;
+    margin: o;
+    font-family: "raleway" sans-serif;
+    text-decoration: none;
+}
+.left-sidebar {
+    background-color: var(--color-white);
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    border: 1px dashed var(--color-accent);
+    width: 300px;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+.content {
+    background-color: var(--color-bg);
+    margin-left: 300px;
+    padding: 25px 35px;
+}
+
+.passport {
+    width: 100px;
+    border-radius: 5px;
+    height: auto;
+}
+
+.side-logo {
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 20px;
+    margin: 20px 0px;
+}
+
+.sponspor {
+    font-weight: 300;
+    color: var(--color-secondary);
+    font-size: 16px;
+}
+.left-nav {
+    margin: 20px 0px 25px 0px;
+}
+.icons {
+    width: 16px;
+
+}
+
+.left-nav-link {
+    background-color: var(--color-bg);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    color: var(--color-primary);
+}
+header-logo {
+    font-weight: 600;
+    font-size: 40px;
+    margin-bottom: 40px;
+    margin-left: 35px;
+}
+.filter-contents {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.filter-btn-container {
+    display: flex;
+    justify-content: start;
+    gap: 3px;
+}
+
+.filter-btn {
+    padding: 10px 25px;
+    background-color: var(--color-white);
+    border: none;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+}
+.filter-btn:hover {
+    background-color: var(--color-bg-hover);
+}
+.active {
+    background-color: var(--color-primary);
+    color: var(--color-white);
+}
+.filter-btn-icon {
+    width: 20px;
+    height: 20px;
+}
+.divider {
+    background-color: var(--color-bg-hover);
+    width: 100%;
+    height: 8px;
+    margin: 15px 0px;
+}
+.portfolio-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.workcard {
+    background-color: var(--color-white);
+}
+.work-card-images {
+    width: 100%;
+}
+.card-texts {
+    padding: 15px;
+}
+.pagination-holder{
+    display: flex;
+    justify-content: center;
+    margin: 20px 0px;
+}
+.page-link{
+    padding: 10px 15px;
+    color: var(--color-primary);
+}
+.page-link:hover{
+    color: var(--color-white);
+    background-color: var(--color-primary);
+}
+
+.current-page{
+    color: var(--color-white);
+    background-color: var(--color-primary);
+}
+
+.image-grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+}
+.my-image{
+    width: 100%;
+}
+
+
+.sub-title{
+    font-size: 1.5rem;
+    margin: 30px 0px 20px 0px
+}
+
+.about-me-text{
+    font-size: 14px;
+    line-height: 1.3rem;
+}
+.lead{
+    margin: 20px 0px;
+    font-size: 22px;
+    font-weight: 400;
+}
+.progress-bar{
+    width: 100%;
+    background-color: #9e9e9e;
+}
+.progress{
+    background-color: var(--color-secondary);
+    padding: 10px 0px;
+    color: var(--color-white);
+    text-align: center;
+}
+
+
+.p-title{
+    margin: 15px 0px;
+}
+
+.progress-bar-class{
+    width: 40%;
+    margin: 25px 0px;
+    padding: 15px 10px;
+}
+/*690-995px*/
+/*tablet view*/
+@media (max-width: 995px) {
+    /*new css rules*/
+
+    .left-sidebar {
+display: none;
+    }
+    .content{
+        background-color: var(--color-bg);
+        margin-left: 0px;
+         padding: 25px 35px;
+    }
+   .hide-for-small {
+    display: none;
+   }
+
+
+}
+.header-holder{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 5px;
+    background-color: var(--color-bg);
+}
+.menu {
+    border: none;
+    padding: 0px;
+}
+.avatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    margin-left: 0px;
+}
+.menu-icon {
+    width: 50px;
+    height: 50px;
+}
+@media (max-width:690px) {
+.portfolio-grid {
+    grid-template-columns: 1fr;
+}
+   .image-grid {
+    grid-template-columns: 1fr;
+   } 
+   .avatar {
+    margin-left: 0px;
+    justify-content: space-between;
+   }
+    }

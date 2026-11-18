@@ -1,0 +1,61 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+header {
+    position: sticky;
+    top: 0px;
+    padding: 15px 5px;
+    border-bottom: 1px solid gray;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+
+
+}
+
+
+
+.nav-link {
+    letter-spacing: 3px;
+    padding: 5px 10px;
+    color: #000;
+    margin: 5px 10px;
+
+}
+
+#hero {
+    position: relative;
+}
+
+#hero-image {
+    width: 100%;
+
+}
+
+#hero-text {
+    position: absolute;
+    bottom: 30px;
+    left: 25px;
+}
+
+.second-section {
+    width: 100%;
+    background-color: white;
+    position: absolute;
+}
+.center {
+    width: 200px;
+    background-color: white;
+    position: absolute;
+    right: 0px;
+}
+.large{
+     background-color: white;
+    position: absolute;
+    right: 0px;
+
+}

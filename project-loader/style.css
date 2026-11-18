@@ -1,0 +1,33 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+.loader-container {
+    background-color: rgb(000, 000, 000, 0.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.loader {
+    background-color: transparent;
+    border: 5px solid blue;
+    border-top: 5px solid red;
+    width: 75px;
+    height: 75px;
+    border-radius: 50px;
+    animation: spinner 2s ease none infinite;
+}
+@keyframes spinner {
+0% {
+
+transform: rotate(0deg);
+}
+100% {
+    transform: rotate(360deg);
+}
+}

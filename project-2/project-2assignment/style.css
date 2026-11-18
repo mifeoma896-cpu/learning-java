@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+:root {
+--color-primary:black;
+--color-secondary:#616161;
+--color-accent:#009688;
+--color-bg: #f1f1f1;
+--color-white:#fff;
+}
+* {
+    padding: 0;
+    margin: o;
+    font-family: "raleway" sans-serif;
+    text-decoration: none;
+}
+.left-sidebar {
+    background-color: var(--color-white);
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    border: 1px dashed var(--color-accent);
+    width: 300px;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+.content {
+    background-color: var(--color-bg);
+    margin-left: 300px;
+}
+
+.passport {
+    width: 100px;
+    border-radius: 5px;
+    height: auto;
+}
+
+.side-logo {
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 20px;
+    margin: 20px 0px;
+}
+
+.sponspor {
+    font-weight: 300;
+    color: var(--color-secondary);
+    font-size: 16px;
+}
+.left-nav {
+    margin: 20px 0px 25px 0px;
+}
+.icons {
+    width: 16px;
+
+}
+
+.left-nav-link {
+    background-color: var(--color-bg);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    color: var(--color-primary);
+}

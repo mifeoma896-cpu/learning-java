@@ -1,0 +1,46 @@
+/* naming convention for class
+tall boy
+tall-boy
+
+background color 
+Background color*/
+
+/* selectors */
+/* element selector : selecting elements by the name of the html element  */
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{ 
+/* whatever you do here will affect the element you selected */
+property-name: value;
+another-property: fair;
+background-color: red;
+}
+
+div {
+    background-color: wheat;
+}
+
+h1{
+    font-size: 100px;
+}
+/* id selector */
+#unique {
+    color: white;
+    background-color: skyblue;
+    color: palevioletred;
+}
+
+.padding-2{
+    padding: 45px;
+    font-size: 23;
+}
+/* combinator selector */
+.group-1 p {
+    color: royalblue;
+}
+.group-1 > p {
+    color: tomato;
+}

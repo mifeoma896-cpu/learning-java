@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css flexbox</title>
+    <style>
+        .container {
+            display: flex;
+            background-color: blue;
+        }
+        .container div {
+            background-color: #f1f1f1;
+        margin: 10px;
+        padding: 20px;
+        font-size: 30px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+    <div>box1</div>
+    <div>box1</div>
+    <div>box1</div>
+    </div>
+    <style>
+        .column{
+            background-color: aqua;
+            display: flex;
+        }
+        .column div {
+display: flex;
+background-color: blueviolet;
+flex-direction: column;
+margin: 10px;
+padding: 20px;
+font-size: 30px;
+        }
+    </style>
+
+<div class="column">
+    <div>box1</div>
+    <div>box1</div>
+    <div>box1</div>
+    </div>
+
+     <style>
+        .row-reverse{
+            background-color: rgb(30, 192, 192);
+            display: flex;
+            flex-direction: row-reverse;
+        }
+        .row-reverse div {
+display: flex;
+background-color: blueviolet;
+flex-direction:row-reverse ;
+margin: 10px;
+padding: 20px;
+font-size: 30px;
+        }
+    </style>
+
+<div class="row-reverse">
+    <div>box1</div>
+    <div>box2</div>
+    <div>box3</div>
+    </div>
+    
+</body>
+</html>

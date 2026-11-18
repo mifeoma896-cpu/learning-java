@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #f1f1f1;
+    font-family: arial, sans-serif;
+    color: #757575;
+    padding: 20px;
+}
+.jane-doe {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+.personal-info {
+    padding: 15px;
+}
+.personal-info h2 {
+    font-size: 25px;
+    color: #333;
+    margin-bottom: 15px;
+}
+.personal-info p {
+    margin-bottom: 12px;
+    font-size: 15px;
+}
+.skill-item{
+    margin-bottom: 20px;
+}
+.skill-item p {
+margin-bottom: 8px;
+}
+.progress-bar {
+    width: 100%;
+    height: 20px;
+    background-color: #ddd;
+    border-radius: 20px;
+    overflow: hidden;
+}
+.progress {
+    height: 100%;
+    background-color: #009688;
+    border-radius: 20px;
+}
+.progress-photoshop {
+    width: 90%;
+}
+.progress-photography {
+width: 80%;
+}
+.progress-illustrator {
+    width: 75%;
+}
+.progress-media {
+    width: 60%;
+}
+
+.language-item {
+    margin-bottom: 20px;
+}
+.language-bar {
+    width: 100%;
+    height: 18px;
+    background-color: #ddd;
+    border-radius: 20px;
+    overflow: hidden;
+}
+.english {
+    width: 95%;
+    height: 100%;
+    background-color: #009688;
+}
+.spanish {
+    width: 50%;
+    height: 100%;
+    background-color: #009688;
+}
+.main-content {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 20px;
+}
+.side {
+    background-color: #f1f1f1;
+    padding: 20px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+.first {
+    background-color: white;
+    padding: 25px;
+    box-shadow:  0 2px 8px rgba(0, 0, 0, 0.15);;
+}
+.main-side {
+    background-color: white;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.work-item {
+    padding: 20px 0;
+    border-bottom: 1px solid #ddd;
+}
+.education {
+    padding: 20px 0;
+    border-bottom: 1px solid #ddd;
+    background-color: white;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);;
+}
+.first {
+    background-color: white;
+    padding: 25px;
+}
+.work-item {
+ padding: 20px 0;
+    border-bottom: 1px solid #ddd;   
+}
+h2 {
+    margin-bottom: 20px;
+    color: #555;
+}
+@media screen and (max-width: 690px) {
+    .main-content {
+        grid-template-columns: 1fr;
+    }
+    .main-side {
+        width: 100%;
+    }
+    .side {
+        width: 100%;
+    }
+}
